@@ -1,0 +1,49 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+.page{
+    height: 1080px;
+    width: 100%;
+    background: wheat;
+    border: 1px solid white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.nav{
+    height: 70px;
+    width: 100%;
+    background: rgb(187, 183, 183);
+    display: flex;
+    position: sticky;
+    
+}
+
+.ls{
+    height: 50px;
+    width: 200px;
+    background: rgb(228, 221, 221);
+    padding: 10px;
+    text-align: center;
+}
+.main{
+    background: rgb(228, 221, 221);
+    height: 700px;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    overflow: scroll;
+    
+}
+.child{
+    height: 680px;
+    width: 680px;
+    background: rgb(252, 197, 78);
+    padding: 4px;
+    margin:40px 10px 2px 2px;
+    scroll-behavior: smooth;
+}
+.footer{
+  height: 300px;
+  width: 300px;
+  background: red;
+}
